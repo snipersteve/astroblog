@@ -50,7 +50,7 @@ const FormattedDatetime = ({ pubDatetime, modDatetime }: DatetimesProps) => {
 
   const date = myDatetime.toLocaleDateString(LOCALE.langTag, {
     year: "numeric",
-    month: "short",
+    month: "numeric",
     day: "numeric",
   });
 
@@ -62,9 +62,9 @@ const FormattedDatetime = ({ pubDatetime, modDatetime }: DatetimesProps) => {
   return (
     <>
       <time dateTime={myDatetime.toISOString()}>{date}</time>
-      <span aria-hidden="true"> | </span>
+      {/* <span aria-hidden="true"> | </span>
       <span className="sr-only">&nbsp;at&nbsp;</span>
-      <span className="text-nowrap">{time}</span>
+      <span className="text-nowrap">{time}</span> */}
     </>
   );
 };
