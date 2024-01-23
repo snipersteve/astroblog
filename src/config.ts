@@ -1,9 +1,9 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://861204.xyz/",
+  website: "https://201986.xyz/",
   author: "伪装兽",
-  desc: "尝试用技术流的方式解决所有问题",
+  desc: "做什么都得走点技术流",
   title: "科学生活",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
