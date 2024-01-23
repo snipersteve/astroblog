@@ -3,7 +3,7 @@ import type { Site, SocialObjects } from "./types";
 export const SITE: Site = {
   website: "https://861204.xyz/",
   author: "伪装兽",
-  desc: "做什么都得走点技术流",
+  desc: "尝试用技术流的方式解决所有问题",
   title: "科学生活",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
@@ -13,7 +13,7 @@ export const SITE: Site = {
 
 export const LOCALE = {
   lang: "zh", // html lang code. Set this empty and default will be "en"
-  langTag: [], // BCP 47 Language Tags. Set this empty [] to use the environment default
+  langTag: ["zh-CN"], // BCP 47 Language Tags. Set this empty [] to use the environment default
 } as const;
 
 export const LOGO_IMAGE = {

@@ -4,8 +4,6 @@ pubDatetime: 2014-01-27
 featured: false
 ---
 
-## Table of contents
-
 我在大学期间最沉迷于时间管理，起因是买了一个PDA，想装DTG（Document to go）来看word文件，不小心却进了GTD（Get things done）的帖子，才开始了解这一领域，并研究了一堆工具。更根本的原因是，浪费的时间太多了，越到后面压力越大，想要提高效率，弥补过去荒废的时光，但往往徒劳无功。
 
 [GTD](http://en.wikipedia.org/wiki/Getting_Things_Done)其实适用人群极为有限，并非适合所有人，甚至对大部分人来说，是一场噩梦。我在很多年以后，才明白这个道理。具体表现在以下方面：
