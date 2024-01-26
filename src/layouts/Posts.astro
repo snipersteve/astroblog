@@ -21,11 +21,19 @@ const { currentPage, totalPages, paginatedPosts } = Astro.props;
   <Header activeNav="posts" />
   <Main pageTitle="Posts" pageDesc="All the articles I've posted.">
     <ul>
-      {
+      <!-- {
         paginatedPosts.map(({ data, slug }) => (
           <Card href={`/posts/${slug}`} frontmatter={data} />
         ))
+      } -->
+      {
+        paginatedPosts.map(({ data, slug }) => {
+          // 创建一个不包含description的新对象
+          const { description, ...frontmatterWithoutDescription } = data;
+          return <Card href={`/posts/${slug}`} frontmatter={frontmatterWithoutDescription} />;
+        })
       }
+      
     </ul>
   </Main>
 
