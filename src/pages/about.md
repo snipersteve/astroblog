@@ -90,7 +90,7 @@ update 主题换成zozo，这个主题真是一眼就喜欢，极致性冷淡，
 
 ![2024-01-23-10-50-39](https://snipersteve-public.oss-cn-hangzhou.aliyuncs.com/pic/assets/2024-01-23-10-50-39_d583af01.png)
 
----
+## （本篇又名：科学博客）
 
 [^1]: 在当shell中提示了nohup成功后，还需要按终端上键盘任意键退回到shell输入命令窗口，然后通过在shell中输入exit来退出终端；如果在nohup执行成功后直接点关闭程序按钮关闭终端的话，这时候会断掉该命令所对应的session，导致nohup对应的进程被通知需要一起shutdown，起不到关掉终端后调用程序继续后台运行的作用。
 [^2]: 一个已经声明关闭的服务，但网站还在 https://us.bitcron.com/

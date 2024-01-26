@@ -48,10 +48,14 @@
     border-radius: 10px; /* 设置边框圆角，根据需求调整 */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加阴影效果，可选 */
     padding: 15px; /* 设置内边距 */
-    background-color: white; /* 设置背景颜色，根据需求调整 */
-    /* 其他必要的样式 */
+    background-color: var(--color-card); /* 设置背景颜色，根据需求调整 */
+    transition: box-shadow 0.3s ease; /* 动画效果，平滑地改变阴影 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* 默认状态的阴影 */
   }
-  
+  .card:hover {
+    /* 鼠标悬停时的样式 */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* 悬停状态的阴影 */
+  }
   section,
   footer {
     @apply mx-auto max-w-3xl px-4;
