@@ -30,7 +30,7 @@ const { currentPage, totalPages, paginatedPosts } = Astro.props;
         paginatedPosts.map(({ data, slug }) => {
           // 创建一个不包含description的新对象
           const { description, ...frontmatterWithoutDescription } = data;
-          return <Card className="card" href={`/posts/${slug}`} frontmatter={frontmatterWithoutDescription} />;
+          return <Card className="card my-1" href={`/posts/${slug}`} frontmatter={frontmatterWithoutDescription} />;
         })
       }
     </ul>
