@@ -48,13 +48,14 @@
     border-radius: 10px; /* 设置边框圆角，根据需求调整 */
     padding: 15px; /* 设置内边距 */
     background-color: var(--color-card); /* 设置背景颜色，根据需求调整 */
+    transition: all 0.3s ease; /* 添加了边框颜色变化的动画 */
   }
 
   .card:hover {
     /* 鼠标悬停时的样式 */
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* 悬停状态的阴影，使卡片“上浮” */
+    box-shadow: 1px 3px 2px rgba(0, 0, 0, 0.1); /* 悬停状态的阴影，使卡片“上浮” */
     border-color: var(--color-card-muted); /* 悬停状态的边框颜色变为黑色 */
-    transform: translateY(-2px); /* 略微向上移动，给人“上浮”的感觉 */
+    transform: translateY(-3px); /* 略微向上移动，给人“上浮”的感觉 */
   }
   section,
   footer {
