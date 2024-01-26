@@ -32,6 +32,26 @@
     @apply flex min-h-[100svh] flex-col bg-skin-fill font-mono text-skin-base 
     selection:bg-skin-accent selection:bg-opacity-70 selection:text-skin-inverted;
   }
+  .posts-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 创建两列，每列宽度相同 */
+    gap: 20px; /* 格子之间的间隔 */
+  }  
+  @media (max-width: 600px) {
+    .posts-grid {
+      grid-template-columns: 1fr; /* 在小屏幕上变为单列布局 */
+    }
+  }
+  
+  .card {
+    border: 1px solid #ccc; /* 设置边框颜色和宽度 */
+    border-radius: 10px; /* 设置边框圆角，根据需求调整 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加阴影效果，可选 */
+    padding: 15px; /* 设置内边距 */
+    background-color: white; /* 设置背景颜色，根据需求调整 */
+    /* 其他必要的样式 */
+  }
+  
   section,
   footer {
     @apply mx-auto max-w-3xl px-4;
