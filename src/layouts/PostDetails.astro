@@ -6,7 +6,6 @@ import Tag from "@components/Tag.astro";
 import Datetime from "@components/Datetime";
 import type { CollectionEntry } from "astro:content";
 import { slugifyStr } from "@utils/slugify";
-import ShareLinks from "@components/ShareLinks.astro";
 
 export interface Props {
   post: CollectionEntry<"blog">;
@@ -91,8 +90,6 @@ const layoutProps = {
         </svg>
         <span>Back to Top</span>
       </button>
-
-      <ShareLinks />
     </div>
   </main>
   <Footer />
